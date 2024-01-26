@@ -1,0 +1,65 @@
+Traceback (most recent call last):
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\requests\compat.py", line 11, in 
+import chardet
+ModuleNotFoundError: No module named 'chardet'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+File "C:\jiaming\software\Anaconda3\envs\FAML\Scripts\jupyter-notebook-script.py", line 6, in 
+from notebook.app import main
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\notebook\app.py", line 20, in 
+from jupyterlab.commands import ( # type:ignore[import-untyped]
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\jupyterlab\__init__.py", line 8, in 
+from .handlers.announcements import (
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\jupyterlab\handlers\announcements.py", line 15, in 
+from jupyterlab_server.translation_utils import translator
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\jupyterlab_server\__init__.py", line 6, in 
+from .app import LabServerApp
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\jupyterlab_server\app.py", line 15, in 
+from .handlers import LabConfig, add_handlers
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\jupyterlab_server\handlers.py", line 21, in 
+from .listings_handler import ListingsHandler, fetch_listings
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\jupyterlab_server\listings_handler.py", line 10, in 
+import requests
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\requests\__init__.py", line 45, in 
+from .exceptions import RequestsDependencyWarning
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\requests\exceptions.py", line 9, in 
+from .compat import JSONDecodeError as CompatJSONDecodeError
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\requests\compat.py", line 13, in 
+import charset_normalizer as chardet
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\charset_normalizer\__init__.py", line 23, in 
+from charset_normalizer.api import from_fp, from_path, from_bytes, normalize
+File "C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\charset_normalizer\api.py", line 10, in 
+f
+rom charset_normalizer.md import mess_ratio
+File "charset_normalizer\md.py", line 5, in 
+ImportError: cannot import name 'COMMON_SAFE_ASCII_CHARACTERS' from 'charset_normalizer.constant' (C:\jiaming\software\Anaconda3\envs\FAML\lib\site-packages\charset_normalizer\constant.py)
+
+
+pip3 install numpy==1.23.5
+--pip3 install pytables==3.7.0
+pip3 install pytest==7.1.2
+pip3 install pandas==1.5.3
+
+
+pip install yfinance
+pip install cufflinks
+
+pip install matplotlib
+
+pip install --upgrade nbformat
+
+pip install chardet
+
+pip install scipy
+
+
+
+#pip3 install google
+#pip3 install google-cloud-bigquery
+
+
+
+
+
